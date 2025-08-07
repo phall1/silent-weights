@@ -17,7 +17,6 @@ Previous work has shown theoretical feasibility of embedding data in neural netw
 This work presents:
 - Practical steganographic embedding in production LLMs
 - Demonstration of payload persistence through fine-tuning
-- Novel gradient-based exfiltration during training
 - Analysis of detection evasion techniques
 - Defensive countermeasures and recommendations
 

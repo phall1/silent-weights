@@ -3,18 +3,18 @@
 ## Research Objectives
 1. **Supply Chain Backdoors** - Demonstrate embedding persistence in open-source models
 2. **Marketplace Trojans** - Show covert payload distribution through model hubs  
-3. **Gradient Exfiltration** - Prove data theft during fine-tuning processes
+3. **Fine tuning resilience** - Demonstrate persistence through fine tuning 
 
 ## High-Level Technical Phases
 
-### Phase 1: Foundation & Literature
+### Phase 1: Foundation & Literature (done)
 - Survey existing neural steganography research
 - Choose embedding techniques to investigate
 - Select target model architectures
 - Define benign proof-of-concept payload
 - Establish baseline metrics
 
-### Phase 2: Embedding Implementation  
+### Phase 2: Embedding Implementation   (in progress)
 - Implement steganographic encoding methods
 - Test payload embedding in model parameters
 - Measure embedding capacity vs. model performance
@@ -32,12 +32,6 @@
 - Implement trigger-based activation
 - Test detection evasion
 - Document threat model
-
-### Phase 5: Gradient-Based Exfiltration
-- Implement training-time data extraction
-- Develop covert communication channels
-- Test across different training scenarios
-- Measure exfiltration effectiveness
 
 ### Phase 6: Detection & Defense
 - Develop detection methodologies
