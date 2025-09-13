@@ -8,10 +8,12 @@ build/
 develop-eggs/
 dist/
 downloads/
+experiments/*/*.mp3
 eggs/
 .eggs/
 lib/
 lib64/
+models/*
 parts/
 sdist/
 var/
