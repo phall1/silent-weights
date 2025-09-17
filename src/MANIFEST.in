@@ -1,0 +1,21 @@
+# Include documentation
+include README.md
+include EXAMPLES.md
+include LICENSE
+include CHANGELOG.md
+
+# Include configuration files
+include pyproject.toml
+include Makefile
+include .pre-commit-config.yaml
+
+# Include test files
+recursive-include tests *.py
+
+# Exclude development files
+exclude .gitignore
+exclude .github
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude * *.so
+recursive-exclude * .DS_Store
