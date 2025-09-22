@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "name": "Documentation Auto-Updater",
+  "description": "Automatically updates technical documentation, research checkpoints, and capability documentation when source code, experiments, or research files are modified",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "src/**/*.py",
+      "experiments/**/*.py",
+      "experiments/**/*.md",
+      "docs/*.md",
+      "README.md",
+      "papers/*.md",
+      "src/README.md",
+      "src/CHANGELOG.md",
+      "src/EXAMPLES.md"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Files have been modified in the neural steganography project. Please review the changes and update the relevant documentation including: 1) Technical documentation in docs/ folder (research_summary.md, ROADMAP.md, ONE_PAGER.md, PUBLICATION_DRAFT.md), 2) Main README.md with any new capabilities or changes, 3) Source documentation in src/ (README.md, CHANGELOG.md, EXAMPLES.md), 4) Research checkpoints and experiment documentation. Focus on keeping documentation current with code changes, new experimental results, research progress, and capability updates. Ensure all documentation accurately reflects the current state of the project."
+  }
+}

@@ -7,11 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Planned for v0.2.0
-- Advanced statistical analysis and detection algorithms
-- Batch processing capabilities for multiple models
-- GPU acceleration for large model processing
-- Enhanced forensic analysis and automated reporting
+### In Development for v0.2.0 - Advanced Statistical Camouflage
+- Statistical distribution preservation during embedding
+- Entropy masking techniques to hide information-theoretic signatures
+- Adaptive embedding patterns that resist detection
+- Advanced detection resistance against sophisticated analysis
+- Benchmarking framework for validation against multiple detection methods
+- Enhanced CLI integration with camouflage options
 
 ## [0.1.0] - 2024-01-15 - Production Release
 

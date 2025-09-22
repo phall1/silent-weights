@@ -41,6 +41,14 @@
 - ✅ Implemented anomaly detection and entropy analysis
 - ✅ Proposed countermeasures and best practices
 
+### Phase 6: Advanced Statistical Camouflage 🚧 IN PROGRESS
+- 🚧 **Statistical Distribution Analysis** - Analyzing parameter distributions before/after embedding
+- 🚧 **Parameter Distribution Preservation** - Maintaining natural statistical properties
+- 🚧 **Entropy Masking Techniques** - Hiding information-theoretic signatures
+- 🚧 **Adaptive Embedding Patterns** - Model-specific patterns for detection resistance
+- 🚧 **Advanced Detection Resistance** - Evasion against sophisticated analysis tools
+- 🚧 **Benchmarking Framework** - Comprehensive validation against multiple detection methods
+
 ## Success Metrics - ACHIEVED ✅
 - ✅ **Embedding capacity**: Up to 8 bits per parameter, multi-MB capacity demonstrated
 - ✅ **Persistence rate**: 100% across save/load operations
@@ -53,11 +61,13 @@ The project has successfully transitioned from experimental research to a produc
 
 ## Next Phase Research Directions
 
-### 🚧 Phase 6: Advanced Evasion (In Progress)
-- **Adaptive LSB patterns** that mimic natural parameter distributions
-- **Enhanced statistical camouflage** to defeat sophisticated detection
-- **Parameter noise injection** to mask embedding artifacts
-- **Adversarial embedding** that fools detection algorithms
+### 🚧 Phase 6: Advanced Statistical Camouflage (In Progress - v0.2.0)
+- **Statistical Distribution Preservation** - Maintain parameter distribution characteristics
+- **Entropy Masking Techniques** - Hide information-theoretic signatures of embedded data
+- **Adaptive Embedding Patterns** - Model-specific patterns that resist detection
+- **Advanced Detection Resistance** - Evasion against sophisticated statistical analysis
+- **Benchmarking Framework** - Comprehensive validation against multiple detection methods
+- **Performance Impact Assessment** - Ensure zero-impact standard is maintained
 
 ### 🔮 Phase 7: Fine-tuning Resilience (Planned)
 - **Fine-tuning persistence** - payloads that survive additional training

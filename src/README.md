@@ -344,13 +344,15 @@ This tool should NOT be used for:
 - ✅ Automatic backup and restore system with integrity verification
 - ✅ Comprehensive test suite with 90%+ coverage
 - ✅ Production-ready documentation and examples
-- ✅ Demonstrated multi-megabyte payload capacity
+- ✅ Demonstrated multi-megabyte payload capacity (3.4MB in LLaMA-3.2-3B)
 
-### Next Release 🚧 v0.2.0 - Enhanced Detection
-- **Advanced Statistical Analysis**: Improved anomaly detection algorithms
-- **Batch Processing**: Multi-model analysis capabilities
-- **Performance Optimization**: GPU acceleration for large models
-- **Enhanced Forensics**: Automated evidence collection and reporting
+### Next Release 🚧 v0.2.0 - Advanced Statistical Camouflage
+- **Statistical Distribution Preservation**: Maintain natural parameter characteristics during embedding
+- **Entropy Masking Techniques**: Hide information-theoretic signatures of embedded data
+- **Adaptive Embedding Patterns**: Model-specific patterns that resist detection
+- **Advanced Detection Resistance**: Evasion against sophisticated statistical analysis
+- **Benchmarking Framework**: Comprehensive validation against multiple detection methods
+- **Enhanced CLI Integration**: Camouflage options and detection benchmarking commands
 
 ### Future Enhancements 🔮
 - **v0.3.0 - Advanced Evasion**

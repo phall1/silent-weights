@@ -79,7 +79,7 @@ print(f"Embedded {result.embedded_bytes:,} bytes")
 
 1. **Supply Chain Backdoors** - ✅ Demonstrated embedding persistence in open-source models
 2. **Marketplace Trojans** - ✅ Showed covert payload distribution through model modifications
-3. **Detection Evasion** - 🚧 Advanced statistical camouflage techniques (in progress)
+3. **Detection Evasion** - 🚧 Advanced statistical camouflage techniques (v0.2.0 in development)
 4. **Fine-tuning Resilience** - 🔮 Payload survival through model fine-tuning (planned)
 
 ## Research Applications
@@ -91,6 +91,7 @@ This toolkit addresses three key threat scenarios:
 
 ## Documentation
 
+- **[Project Status](docs/PROJECT_STATUS.md)** - Comprehensive status overview and achievements
 - **[Toolkit Documentation](src/README.md)** - Complete API reference and examples
 - **[Research Summary](docs/research_summary.md)** - Current findings and progress
 - **[Research Roadmap](docs/ROADMAP.md)** - Future experiments and objectives

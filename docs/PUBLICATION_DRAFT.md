@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Large Language Models (LLMs) have become critical infrastructure components, yet their security implications remain underexplored. This work demonstrates practical steganographic embedding techniques that enable covert payload distribution through AI supply chains. We present a comprehensive toolkit capable of embedding multi-megabyte payloads in production transformer models with zero performance degradation. Our research validates three key threat scenarios: supply chain backdoors, marketplace trojans, and data exfiltration attacks. We successfully embedded a 3.4MB MP3 file in a LLaMA-3.2-3B model, achieving perfect data recovery while maintaining identical model behavior. Additionally, we contribute defensive capabilities including statistical analysis, anomaly detection, and forensic investigation tools. Our findings demonstrate that open-weight models represent a critical and underexplored attack vector in AI security, requiring immediate attention from the security community.
+Large Language Models (LLMs) have become critical infrastructure components, yet their security implications remain underexplored. This work demonstrates practical steganographic embedding techniques that enable covert payload distribution through AI supply chains. We present a comprehensive toolkit capable of embedding multi-megabyte payloads in production transformer models with zero performance degradation. Our research validates three key threat scenarios: supply chain backdoors, marketplace trojans, and data exfiltration attacks. We successfully embedded a 3.4MB MP3 file in a LLaMA-3.2-3B model, achieving perfect data recovery while maintaining identical model behavior. Additionally, we contribute defensive capabilities including statistical analysis, anomaly detection, and forensic investigation tools. Our ongoing work on advanced statistical camouflage techniques demonstrates sophisticated evasion methods against detection systems. Our findings demonstrate that open-weight models represent a critical and underexplored attack vector in AI security, requiring immediate attention from the security community.
 
 ## 1. Introduction
 
@@ -19,6 +19,7 @@ This work presents:
 - **Production-ready toolkit** with CLI and Python API for security research
 - **Comprehensive detection methods** including statistical analysis and forensic tools
 - **Zero-impact embedding** with perfect data recovery and identical model behavior
+- **Advanced statistical camouflage** techniques for sophisticated detection evasion (in development)
 - **Security framework** for AI supply chain vulnerability assessment
 
 ## 2. Background & Related Work
@@ -97,6 +98,8 @@ Based on our findings, we recommend:
 ## 6. Conclusion
 
 This work demonstrates that neural steganography represents a practical and immediate threat to AI supply chain security. Our successful embedding of multi-megabyte payloads in production models with zero detection validates the critical nature of this vulnerability. The production-ready toolkit we contribute enables both offensive security research and defensive capability development.
+
+Our ongoing development of advanced statistical camouflage techniques demonstrates the evolving sophistication of potential threats, with methods that can evade even advanced detection systems through statistical distribution preservation, entropy masking, and adaptive embedding patterns.
 
 Future work should focus on advanced detection methods, fine-tuning resilience, and large-scale automated analysis of model repositories. The AI security community must urgently address these vulnerabilities as AI deployment continues to accelerate across critical infrastructure.
 

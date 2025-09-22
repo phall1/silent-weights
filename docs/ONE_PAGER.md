@@ -101,4 +101,6 @@ Payload extraction requires:
 
 This research has successfully transitioned neural steganography from theoretical vulnerability to demonstrated threat with practical exploitation tools. The work provides both offensive proof-of-concept and defensive capabilities, establishing a foundation for AI supply chain security research. The demonstrated ability to embed multi-megabyte payloads in production models with zero detection represents a paradigm shift in understanding AI security threats.
 
+**Current Development**: Advanced statistical camouflage techniques are in active development to demonstrate next-generation evasion capabilities against sophisticated detection systems.
+
 **Immediate Action Required**: Organizations deploying AI models must implement verification procedures and consider steganographic analysis as part of their security posture.
